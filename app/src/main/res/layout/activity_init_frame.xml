@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InitFrame"
+    android:fitsSystemWindows="true"
+    android:background="#F5F5DC">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <TextView
+            android:id="@+id/textView01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/textView04"
+            android:layout_alignTop="@+id/textView02"
+            android:text="天气" />
+
+        <TextView
+            android:id="@+id/textView02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/textView03"
+            android:layout_marginBottom="66dp"
+            android:text="番茄钟" />
+
+        <TextView
+            android:id="@+id/textView03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="285dp"
+            android:layout_marginStart="86dp"
+            android:text="日程" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:background="@color/qinglv"
+            android:gravity="center"
+            android:text="小佩奇"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="50dp"
+            android:background="#DCDCDC" />
+
+        <Button
+            android:id="@+id/ToDate"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/ToToamto"
+            android:layout_marginTop="360dp"
+            android:background="@mipmap/day"
+            android:onClick="go"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:id="@+id/textView04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignTop="@+id/textView03"
+            android:layout_marginEnd="81dp"
+            android:text="日记" />
+
+        <Button
+            android:id="@+id/ToDiary"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignStart="@+id/ToPer"
+            android:layout_alignTop="@+id/ToDate"
+            android:background="@mipmap/book"
+
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/ToToamto"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="109dp"
+            android:layout_marginStart="59dp"
+            android:background="@mipmap/clock"
+
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/ToPer"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignTop="@+id/ToToamto"
+            android:layout_marginEnd="59dp"
+            android:background="@mipmap/weather"
+
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/texiao"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="85dp"
+            android:layout_toStartOf="@+id/ToDiary"
+            android:background="@mipmap/cloud" />
+
+        <Button
+            android:id="@+id/button_personLogin"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@mipmap/person"/>
+
+        <Button
+            android:id="@+id/texiao2"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="96dp"
+            android:layout_toEndOf="@+id/textView03"
+            android:background="@mipmap/cloud" />
+    </RelativeLayout>
+
+
+
+</android.widget.RelativeLayout>

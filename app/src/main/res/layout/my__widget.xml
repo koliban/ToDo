@@ -1,0 +1,61 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAFAD2">
+
+    <TextView
+        android:id="@+id/app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="12dip"
+        android:layout_marginTop="12dip"
+        android:textSize="15sp"
+        android:textColor="#000000"
+        android:text="@string/app_name"/>
+
+    <ImageButton
+        android:id="@+id/add"
+        android:src="@mipmap/add_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="24dip"
+        android:layout_marginTop="8dip"
+        android:background="#ffffff" />
+
+    <ImageButton
+        android:id="@+id/weather"
+        android:src="@mipmap/weather_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="24dip"
+        android:layout_marginBottom="8dip"
+        android:background="#ffffff" />
+
+    <ImageButton
+        android:id="@+id/clock"
+        android:src="@mipmap/clock_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="8dip"
+        android:background="#ffffff" />
+
+    <ImageButton
+        android:id="@+id/diary"
+        android:src="@mipmap/diary_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="24dip"
+        android:layout_marginBottom="8dip"
+        android:background="#ffffff" />
+
+</RelativeLayout>

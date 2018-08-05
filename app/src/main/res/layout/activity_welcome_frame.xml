@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".WelcomeFrame">
+
+    <ImageView
+        android:id="@+id/welImage"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true" />
+
+<TextView
+    android:layout_width="fill_parent"
+    android:layout_height="100dp"
+    android:text="@string/inWelcome"
+   android:gravity="center"
+    android:layout_marginTop="580dp"/>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:background="#ffffff"
+        android:gravity="center">
+
+
+
+        <TextView
+            android:id="@+id/showAppLogo"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"
+            android:background="@mipmap/applogo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/showAppLogo"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="100dp"
+            android:text="小佩奇"
+            android:textSize="12dp" />
+    </RelativeLayout>
+</RelativeLayout>
